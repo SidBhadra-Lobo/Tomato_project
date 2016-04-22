@@ -1,14 +1,32 @@
 # Ignore everything
-*
+#*
 
 # But not these files...
-!.gitignore
-!scripts/*
-!ref_gen/*
-!README.md
-!Tomato.probe_tab_1.txt
+#!.gitignore
+#!scripts/*
+#!ref_gen/*
+#!README.md
+#!Tomato.probe_tab_1.txt
 # etc...
 
 # ...even if they are in subdirectories
 # !*/
 
+blastn_outs/
+errors/
+outs/
+queries/
+ref_gen/
+#scripts/
+
+crap
+head_tail_probelist_2_col.txt
+head_tail_probelist.txt
+#README.md
+test_AFFX-CreX-3_a.fa
+test.file
+#Tomato.probe_tab_1.txt
+tomato_query_list_2col_nodups.txt
+tomato_query_list_2col.txt
+tomato_query_list.txt
+wget_list.txt

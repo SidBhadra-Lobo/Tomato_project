@@ -1,10 +1,12 @@
 #Tomato Project
 
-*So far I have downloaded and assembled the tomato reference genome,  `S_lycopersicum_build_2.50_chr1-12.fa`. 
+**So far**
+ 
+* I have downloaded and assembled the tomato reference genome,  `S_lycopersicum_build_2.50_chr1-12.fa`, script is tomato_wget_assemble.sh 
 
-*Wrote a script that concatenates all sequences associated with probes of idenitcal ids, `make_probe_fasta.fa`
+* Wrote a script that concatenates all sequences associated with probes of idenitcal ids, `make_probe_fasta.fa`
 
-*Wrote a script that then uses blastn to align the concatenated probe fastas against the tomato reference genome, `S_lycopersicum_build_2.50_chr1-12.fa`
+* Wrote a script that then uses blastn to align the concatenated probe fastas against the tomato reference genome, `S_lycopersicum_build_2.50_chr1-12.fa`
  
 **Currently**
 
