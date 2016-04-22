@@ -10,4 +10,6 @@
  
 **Currently**
 
-Right now I'm making 5937 fastas from the 65535 probes from `Tomato.probe_tab_1.txt`, then aligning those fastas.
+Done - Right now I'm making 5937 fastas from the 65535 probes from `Tomato.probe_tab_1.txt`, then aligning those fastas.
+
+Done - made blast table of all probes against tomato refgen `full_blastn.table` , out format 7, default threshold, culling limit 1.
