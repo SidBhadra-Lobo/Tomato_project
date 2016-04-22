@@ -14,16 +14,20 @@
 
 ##SBATCH --array=1-12
 
-##SBATCH --array=1-65535
+##SBATCH --array=1-65535 # can't run all at once.
 ##SBATCH --array=1-10000 #done
 ##SBATCH --array=10001-20000 #done
-#SBATCH --array=20001-30000
+##SBATCH --array=20001-30000 #done
+##SBATCH --array=30001-50000 #done
 
+#SBATCH --array=1-15535 # to do the last 15535
 
 set -e
 set -u
 
-FILE=$( sed -n "$SLURM_ARRAY_TASK_ID"p tomato_query_list_2col.txt);
+# FILE=$( sed -n "$SLURM_ARRAY_TASK_ID"p tomato_query_list_2col.txt); # to do the first 50000
+
+FILE=$( sed -n "$SLURM_ARRAY_TASK_ID"p tomato_query_list_2col_tail_15535.txt ); # to do the last 15535
 
 for file in "$FILE";
 

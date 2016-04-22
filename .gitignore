@@ -17,7 +17,7 @@ errors/
 outs/
 queries/
 /ref_gen/*
-!/ref_gen/S_lycopersicum_build_2.50_chr1-12.fa
+/ref_gen/S_lycopersicum_build_2.50_chr1-12.fa
 #scripts/
 
 crap
@@ -29,5 +29,6 @@ test.file
 #Tomato.probe_tab_1.txt
 tomato_query_list_2col_nodups.txt
 tomato_query_list_2col.txt
+tomato_query_list_2col_tail_15535.txt
 tomato_query_list.txt
 wget_list.txt
