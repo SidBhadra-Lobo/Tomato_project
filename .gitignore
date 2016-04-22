@@ -3,8 +3,8 @@
 
 # But not these files...
 !.gitignore
-!scripts/
-!ref_gen/
+!scripts/*
+!ref_gen/*
 !README.md
 !Tomato.probe_tab_1.txt
 # etc...
