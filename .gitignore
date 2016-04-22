@@ -16,7 +16,8 @@ blastn_outs/
 errors/
 outs/
 queries/
-ref_gen/
+/ref_gen/*
+!/ref_gen/S_lycopersicum_build_2.50_chr1-12.fa
 #scripts/
 
 crap
