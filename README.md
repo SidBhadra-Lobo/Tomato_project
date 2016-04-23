@@ -2,7 +2,7 @@
 
 **So far**
  
-* I have downloaded and assembled the [tomato reference genome](ftp://ftp.solgenomics.net/tomato_genome/assembly/build_2.50/),  `S_lycopersicum_build_2.50_chr1-12.fa`, script is `tomato_wget_assemble.sh` 
+* I have downloaded and assembled [tomato reference genome](ftp://ftp.solgenomics.net/tomato_genome/assembly/build_2.50/),  `S_lycopersicum_build_2.50_chr1-12.fa`, script is [`tomato_wget_assemble.sh`](scripts/tomato_wget_assemble.sh) 
 
 * Wrote a script that concatenates all sequences associated with probes of idenitcal ids, `make_probe_fasta.fa`
 
