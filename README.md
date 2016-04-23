@@ -6,7 +6,7 @@
 
 * Wrote a script that concatenates all sequences associated with probes of idenitcal ids, [`make_probe_fasta.fa`](scripts/make_probe_fasta.fa)
 
-* Wrote a script that then uses blastn to align the concatenated probe fastas against the tomato reference genome.
+* Wrote a script that then uses blastn to align the concatenated probe fastas against the tomato reference genome, [`blastn_tomato.sh`](scripts/blastn_tomato.sh).
  
 **Currently**
 
