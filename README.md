@@ -14,4 +14,4 @@ Done - Made blast table of all probes against tomato refgen [`full_blastn.table`
 
 **Currently**
 
-Done - Wrote [`gene_match.sh`](scripts/gene_match.sh) to match up the GeneIDs from [`Gene_ID_tabdelim.txt`](Gene_ID_tabdelim.txt) to the concatenated fasta probes. And matched them up to the already generated respective BLAST outputs, to generate the final complete [RMM TTEST table](Gene_ID_fulltable.txt).
+Done - Wrote [`gene_match.sh`](scripts/gene_match.sh) to match up the GeneIDs from the [`RMM TTEST table`](Gene_ID_tabdelim.txt) to the concatenated fasta probes. And matched them up to the already generated respective BLAST outputs, to generate the final complete [table](Gene_ID_fulltable.txt).
