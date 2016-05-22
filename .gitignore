@@ -11,13 +11,25 @@
 
 # ...even if they are in subdirectories
 # !*/
-
+Gene_ID_fulltable_subset.txt
+Gene_ID_tabdelim.txt
+Gene_ID_tabdelim_subset.txt
+crap.cat
+crap2
+crap3
+data_outs/
+indi_blastn/
 blastn_outs/
 errors/
 outs/
 queries/
 /ref_gen/*
 /ref_gen/S_lycopersicum_build_2.50_chr1-12.fa
+single_blastn_outs/
+single_queries/
+temp/
+tomato_query_list_tail_25535.txt
+
 #scripts/
 
 crap
