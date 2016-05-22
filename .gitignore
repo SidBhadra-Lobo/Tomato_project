@@ -12,7 +12,7 @@
 # ...even if they are in subdirectories
 # !*/
 Gene_ID_fulltable_subset.txt
-Gene_ID_tabdelim.txt
+#Gene_ID_tabdelim.txt
 Gene_ID_tabdelim_subset.txt
 crap.cat
 crap2
